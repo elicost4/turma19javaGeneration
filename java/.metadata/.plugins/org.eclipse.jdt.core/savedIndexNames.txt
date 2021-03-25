@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\Users\Lenovo\OneDrive\Área de Trabalho\turma19java\java\.metadata\.plugins\org.eclipse.jdt.core
+949346708.index
+827256296.index

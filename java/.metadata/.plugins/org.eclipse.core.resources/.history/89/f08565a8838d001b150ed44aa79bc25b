@@ -1,0 +1,20 @@
+package Exemplos;
+
+import java.util.Scanner;
+
+public class CelsiusParaFahrenheit
+{
+	public static void main(String[] args)
+	{
+		Scanner leia = new Scanner(System.in);
+		double celsius;
+		double calculo;
+		
+		System.out.println("Digite a temperatura em Celsius: ");
+		celsius = leia.nextInt();
+		
+		calculo = (celsius*1.8)+32;
+		
+		System.out.println(celsius +"ºC em fahrenheit é: "+calculo+"ºC");
+	}
+}
