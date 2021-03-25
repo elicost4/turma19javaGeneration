@@ -17,7 +17,7 @@ public class Exercicio2
 		meses = ((idadeDias%365) /30);
 		dias = ((idadeDias%365) %30);
 		
-		System.out.print("Você tem "+anos+" anos, "+meses+" meses e"+dias+" dias de vida");
+		System.out.print("Você tem "+anos+" anos, "+meses+" meses e "+dias+" dias de vida");
 		
 	}
 }
