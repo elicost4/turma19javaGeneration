@@ -7,14 +7,14 @@ public class AuxilioGoverno {
 	
 	public static void main(String[] args) {
 
-		Locale.setDefault(Locale.US);
+		Locale.setDefault(Locale.US); //para padronizar ponto e virgula(Padrao US)
 		Scanner leia = new Scanner(System.in);
 		String nome;
 		int filhos=0;
 
 		char situacaoEmergencial;  //não esqueça o chart
 		System.out.print("Digite seu nome: ");
-		//leia.nextLine(); //problema de buffer de teclado
+		leia.nextLine(); //problema de buffer de teclado
 		nome = leia.nextLine().toUpperCase();
 		System.out.print("Vc recebeu emergencial antes S-SIM ou N-NÃO:");
 		situacaoEmergencial = leia.next().toUpperCase().charAt(0);
