@@ -1,0 +1,32 @@
+package Desafios;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class AuxilioGoverno {
+	
+	public static void main(String[] args) {
+		
+		/*escreva um programa que leia as informações do usuário, e fale se ele está apto para
+		receber o auxilio, sabendo que se for chefa de familía recebe o dobro*/ 
+		
+		Scanner leia = new Scanner(System.in);
+		Locale.setDefault(Locale.US); //instaciado o tipo d moeda/teclado/decimais
+		
+		int numero; //numero inteiro
+		
+		System.out.println("Digite um número: ");
+		numero = leia.nextInt();
+		
+		if (numero%2==0) {
+			
+			System.out.println("Número PAR!");
+			
+		} else {
+			System.out.println("Número ÍMPAR!");
+		}
+		
+		
+	}
+
+}

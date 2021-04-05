@@ -8,10 +8,7 @@ public class Exercicio3
 	{
 		/*3. Faça um sistema que leia o tempo de duração de um evento em uma fábrica
 		expressa em segundos e mostre-o expresso em horas, minutos e segundos.*/
-		//%f double
-		//%
-		
-		
+				
 		Scanner leia = new Scanner(System.in);
 		//variaveis
 		double seg, tempoDuracao, hr, min;
@@ -24,11 +21,7 @@ public class Exercicio3
 		min = ((tempoDuracao % 3600) / 60);
 		seg = ((tempoDuracao % 3600) % 60);
 		
-		System.out.printf("Horas: %.0f \nMinutos: %.0f \nSegundos %.0f",hr,min,seg);
-		
-		
-		
-		
+		System.out.printf("Duração total do evento: %.0fh %.0fm %.0fs",hr,min,seg);
 		
 	}
 }

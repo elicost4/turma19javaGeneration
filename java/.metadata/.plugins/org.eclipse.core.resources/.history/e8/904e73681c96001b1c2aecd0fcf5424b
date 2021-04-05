@@ -1,0 +1,42 @@
+package Desafios;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class AuxilioGoverno {
+	
+	public static void main(String[] args) {
+		
+		/*Construa um programa que atenda a todos esses parâmetros (Programa Auxílio Emergencial)
+
+		• Eu preciso saber se ela já recebeu anteriormente ou não
+		• Se define como chefa de família ou não?
+		• Se for chefa tem direito ao dobro
+		• Tem que informar se recebeu bolsa família
+		• Se recebeu não tem direito a receber o auxílio
+		• A cada 1 filho que ela tiver ela ganha +50 reais fora o auxílio emergencial*/ 
+		
+		Scanner leia = new Scanner(System.in);
+		Locale.setDefault(Locale.US); //instaciado o tipo d moeda/teclado/decimais
+		
+		int numFilhos;
+		String nome, simOuNao;
+		
+		System.out.println("Olá, informe o seu nome: ");
+		nome = leia.next();
+		
+		System.out.println("Olá, "+nome+", você já recebeu auxilio anteriormente? S-sim, N-não");
+		simOuNao = leia.next();
+		
+		if (simOuNao == "S") {
+			System.out.println("Infelizmente você não poderá receber novamente");
+		} else if (simOuNao == "N"); {
+			System.out.println("Você se considera chefa de família? S-sim ou N-não");
+			simOuNao = leia.next();
+		}
+		
+		
+	}
+	
+
+}

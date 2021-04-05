@@ -1,0 +1,37 @@
+package Exemplos;
+
+import java.util.Scanner;
+
+public class Exercicio6 {
+	
+	/*6. Construa um programa em c que, tendo como dados de entrada dois pontos
+	quaisquer no plano, P(x1, y1) e P(x2, y2), escreva a distância entre eles. A fórmula*/
+	
+	public static void main(String[] args) {
+		
+		Scanner leia =  new Scanner(System.in);
+		
+		int x1,x2,y1,y2;
+		double d;
+		
+		System.out.print("Entre com o valor de x1: ");
+		x1 = leia.nextInt();		
+		System.out.print("Entre com o valor de x2: ");
+		x2 = leia.nextInt();		
+		System.out.print("Entre com o valor de y1: ");
+		y1 = leia.nextInt();		
+		System.out.print("Entre com o valor de y2: ");
+		y2 = leia.nextInt();
+		
+		d = Math.sqrt(Math.pow(x1-x2, 2) + Math.pow(y2-y1, 2));
+		
+		System.out.print("O valor da expressão é:"+d);
+		
+		
+		
+		
+		
+		
+	}
+
+}
